@@ -1,7 +1,7 @@
-#### Fork of the last updated version of Nuand's YateBTS (BladeRF) repository
-##### This should be compatible with LimeSDR using OsmoTRX. Try it and let us know!
+##### Fork of the last updated version of Nuand's YateBTS (BladeRF) repository
+###### This should be compatible with LimeSDR using OsmoTRX. Try it and let us know!
 
-### What is YateBTS
+## What is YateBTS
 YateBTS is an open source GSM Base Station software.
 
 You can use this software to create a 2G GSM network, either standalone or connected to
@@ -14,13 +14,13 @@ that supports an IMS core and SS7 core network makes it a disruptive technology.
 Please see the INSTALL file for information of how to download, build and install YateBTS.
 
 
-### Configuration
+## Configuration
 YateBTS is a module for the Yate telephony engine.
 
 You will need to configure Yate to load it and also YateBTS itself.
 
 
-#### YateBTS
+### YateBTS
 The module is configured by the ybts.conf file. Depending on the install method you may
 have just an ybts.conf.sample which you will need to copy as ybts.conf
 
@@ -39,10 +39,10 @@ Alternatively you may create a symbolic link to the desired transceiver:
     cd /usr/lib64/yate/bts    (or wherever it is installed)
     ln -s transceiver-rad1 transceiver
 
-##### If you are using LimeSDR, you need to use OsmoTRX as the transceiver!
+###### If you are using LimeSDR, you need to use OsmoTRX as the transceiver!
 
 
-#### Network In a Box
+### Network In a Box
 The Network In a Box (NIB) is a configuration that allows using YateBTS standalone
 with just local subscribers.
 
