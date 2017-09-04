@@ -1,6 +1,6 @@
 ##### Fork of the last updated version of Nuand's YateBTS (BladeRF) repository
 ###### This should be compatible with LimeSDR using OsmoTRX. Try it and let us know!
-###### My LimeSDR is shipping 20 Jul. Will test this as soon as I get my hands on it!
+###### My LimeSDR is shipping 30 Sep. Will test this as soon as I get my hands on it!
 
 ## What is YateBTS
 YateBTS is an open source GSM Base Station software.
