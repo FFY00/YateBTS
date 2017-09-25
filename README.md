@@ -51,15 +51,19 @@ To use it you need to configure in Yate:
 
 In file javascript.conf:
 
+```
 [general]
 routing=welcome.js
 
 [scripts]
 nib=nib.js
+```
 
 In file extmodule.conf:
 
+```
 [scripts]
 gsm_auth.sh
+```
 
 ##### For more info see: http://wiki.yatebts.com/index.php/Javascript_NIB
